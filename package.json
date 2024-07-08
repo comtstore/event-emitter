@@ -1,11 +1,12 @@
 {
   "name": "@comtstore/event-emitter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "事件管理器",
   "main": "./dist/index.esm.js",
   "scripts": {
     "build": "cross-env NODE_ENV=production && yarn clean && node --experimental-json-modules ./node_modules/.bin/rollup --config  ./build/rollup.config.prod.js",
-    "clean": "rimraf ./dist"
+    "clean": "rimraf ./dist",
+    "pub": "npm publish --access public"
   },
   "repository": {
     "type": "git",
