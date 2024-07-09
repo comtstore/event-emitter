@@ -1,6 +1,6 @@
 {
   "name": "@comtstore/event-emitter",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "事件管理器",
   "main": "./dist/index.cjs",
   "module": "./dist/index.esm.js",
