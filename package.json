@@ -2,7 +2,8 @@
   "name": "@comtstore/event-emitter",
   "version": "1.0.3",
   "description": "事件管理器",
-  "main": "./dist/index.esm.js",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.esm.js",
   "types": "./dist/index.d.ts",
   "scripts": {
     "build": "cross-env NODE_ENV=production && yarn clean && node --experimental-json-modules ./node_modules/.bin/rollup --config  ./build/rollup.config.prod.js",
